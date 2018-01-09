@@ -12,10 +12,10 @@ int main() {
     printf("Enter second date (mm/dd/yy): ");
     scanf("%d/%d/%d", &second_month, &second_day, &second_year);
 
-    first_convert = (first_month / 12 / 30) + (first_day + (first_year * 365));
-    second_convert = (second_month / 12 / 30) + (second_day + (second_year * 365));
+    first_convert = (first_month * 30) + (first_day + (first_year * 365));
+    second_convert = (second_month * 30) + (second_day + (second_year * 365));
 
-    // See ressult of converted inputs.
+    // See result of converted inputs.
     /* printf("First input: %d\n", first_convert); */
     /* printf("First input: %d\n", second_convert); */
 
