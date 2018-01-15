@@ -1,3 +1,4 @@
+/* Determines the length of a message */
 
 #include <stdio.h>
 
